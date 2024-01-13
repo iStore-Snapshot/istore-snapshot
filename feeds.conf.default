@@ -6,3 +6,10 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
+
+# istore
+src-git istore https://github.com/iStore-Snapshot/istore.git
+# argon, etc.
+src-git third https://github.com/iStore-Snapshot/istore-third.git
+# istore quickstart
+src-git quickstart https://github.com/iStore-Snapshot/istore-quickstart.git
